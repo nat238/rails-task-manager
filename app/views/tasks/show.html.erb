@@ -1,0 +1,9 @@
+<h2><%= @task.title %></h2>
+<h4><%= @task.details %></h4>
+<div>
+    <input type="checkbox" id="scales" name="scales"
+           checked>
+    <label for="task"><%= "Done or not?" %></label>
+</div>
+<div><%= link_to 'Back to list', '/' %></div>
+<div><%= link_to 'update infos', edit_path %></div>
